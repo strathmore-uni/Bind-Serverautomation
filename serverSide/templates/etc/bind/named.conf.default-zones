@@ -1,0 +1,19 @@
+zone "127.in-addr.arpa" {
+  type master;
+  file "/etc/bind/db.127";
+};
+
+zone "0.in-addr.arpa" {
+  type master;
+  file "/etc/bind/db.0";
+};
+
+zone "255.in-addr.arpa" {
+  type master;
+  file "/etc/bind/db.255";
+};
+
+zone "ozy.cns" {
+  type master;
+  file "/etc/bind/db.ozy.cns";
+};
